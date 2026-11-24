@@ -18,5 +18,22 @@ p {
 
 a {
     color: rgb(175, 219, 195);
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+div {
+    font-size: 20px;
+}
+
+.dialogue-box {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #42a18d;
+    border-radius: 60px;
+    padding: 12px 16px;
+    margin: 10px;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
